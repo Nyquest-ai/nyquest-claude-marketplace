@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "nyquest",
-      "source": { "source": "github", "repo": "Nyquest-ai/nyquest-claude-mcp" },
+      "source": { "source": "url", "url": "https://github.com/Nyquest-ai/nyquest-claude-mcp.git" },
       "description": "Nyquest Context Manager: keeps large tool results out of Claude's context with exact-line digests and on-demand recall. Measured: -57% cost and -52% final context on a 13-turn session, identical output.",
       "version": "0.2.3",
       "author": { "name": "Nyquest", "url": "https://nyquest.ai" },
