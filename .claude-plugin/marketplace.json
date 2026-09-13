@@ -1,0 +1,11 @@
+{
+  "name": "nyquest",
+  "owner": { "name": "Nyquest", "url": "https://nyquest.ai" },
+  "plugins": [
+    {
+      "name": "nyquest",
+      "source": "./plugins/nyquest",
+      "description": "Nyquest Context Manager: keeps large tool results out of Claude's context with exact-line digests and on-demand recall."
+    }
+  ]
+}
