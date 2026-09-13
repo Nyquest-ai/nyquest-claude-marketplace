@@ -1,11 +1,22 @@
 {
   "name": "nyquest",
-  "owner": { "name": "Nyquest", "url": "https://nyquest.ai" },
+  "owner": { "name": "Nyquest", "email": "michael@256kmagic.com", "url": "https://nyquest.ai" },
+  "metadata": {
+    "description": "Plugins from Nyquest (nyquest.ai) for Claude Code",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "nyquest",
-      "source": "./plugins/nyquest",
-      "description": "Nyquest Context Manager: keeps large tool results out of Claude's context with exact-line digests and on-demand recall."
+      "source": { "source": "github", "repo": "Nyquest-ai/nyquest-claude-mcp" },
+      "description": "Nyquest Context Manager: keeps large tool results out of Claude's context with exact-line digests and on-demand recall. Measured: -57% cost and -52% final context on a 13-turn session, identical output.",
+      "version": "0.2.3",
+      "author": { "name": "Nyquest", "url": "https://nyquest.ai" },
+      "homepage": "https://github.com/Nyquest-ai/nyquest-claude-mcp#readme",
+      "repository": "https://github.com/Nyquest-ai/nyquest-claude-mcp",
+      "license": "MIT",
+      "keywords": ["context", "tokens", "compression", "digest", "recall"],
+      "category": "productivity"
     }
   ]
 }
